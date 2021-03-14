@@ -1,0 +1,76 @@
+<div class="bs-example">
+    <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmation</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Do you want to save changes to this document before closing?</p>
+                    <p class="text-secondary"><small>If you don't save, your changes will be lost.</small></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+   <div class="body">
+   <h1 style="color: red;"> Welcome to Crafts Store</h1>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark" >
+            <div  class="container">
+                <a href="" class="navbar-brand">
+                    <i class="fab fa-centos" style="color: pink" ></i> <small>Arts of carfts</small> 
+                </a>
+                   <ul class=" nav navbar-nav">
+                       <li nav-item>
+                           <a routerLink="home" class="nav-link" id="home">Home</a>
+                       </li>
+                       <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Categories</a>
+                        <div class="dropdown-menu">
+                            <a routerLink="arts" class="dropdown-item">Arts</a>
+                            <a routerLink="party" class="dropdown-item">Party</a>
+                            <a href="sationary" class="dropdown-item">Stationary</a>
+                            <a href="maskandsanitizer" class="dropdown-item">Sanitizer and Masks</a>
+                        </div>
+                       </li>
+                       <li class="nav-item">
+                        <a routerLink="contactus" class="nav-link">contact us</a>
+                       </li>
+                       <li class="nav-item">
+                        <a routerLink="aboutus" class="nav-link">About us</a>
+                          
+
+                       </li>
+                       </ul>
+                       <form class="form-inline">
+                        <div class="input-group">                    
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-secondary">search</button>
+                            </div>
+                        </div>
+                    </form>
+                   <a routerLink="login"> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Log in
+                      </button></a>
+                      <a routerLink="signup"> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Sign up
+                      </button></a>
+                    
+            </div>
+        </nav>
+    </div>
+
+
+
+
+
+<router-outlet></router-outlet>

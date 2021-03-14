@@ -1,0 +1,13 @@
+.navbar a:hover {
+    background-color:blue; 
+    color: black; 
+  }
+.body
+{
+    background-image: url('https://media.istockphoto.com/photos/watercolor-and-oil-paints-brushes-pencils-pastel-crayon-on-table-picture-id626841510?k=6&m=626841510&s=612x612&w=0&h=V7i81tQutTiJ20R3__438CiH28kqMLfwzwXE3IMgf5U=');
+    background-attachment: fixed;
+}
+#myModal{
+
+    align-items: right;
+}
